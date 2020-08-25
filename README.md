@@ -22,6 +22,35 @@ git add *.png
 git reset *.xml
 ```
 
+## Viajes en el tiempo
+
+- Para realizar viajes en el tiempo debemos colocar el siguiente comando y colocar un numero de version al que deseamos regresar para realizar alguuna modificacion a esa version
+
+```
+git reset  --soft  **nombre de la version a la que se quiere regresar en el tiempo**
+```
+
+## Viajes en el tiempo 2
+
+- Si se utiliza este comando eliminara del repositorio todas aquellas versiones anteriores que le presedan a esta quiere decir que las de mas versiones seran eliminadas apartir del punto que se le indico
+
+### Ejemplo:
+
+```
+ si se tiene 9 8 7 6 5
+
+ - y se aplica el comando a  git reset  --hard 7
+
+las versiones nuevas seran eliminadas  hasta el punto de referencia que es el 5 de tal forma que las versiones nos quedarian de la siguiente forma
+
+   - 7  6 5
+
+```
+
+```
+git reset  --hard  **nombre de la version a la que se quiere regresar en el tiempo**
+```
+
 ## Guardar los cambios en los archivos (toma una captura del codigo como esta actualmente)
 
 ```
