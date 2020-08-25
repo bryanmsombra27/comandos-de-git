@@ -88,10 +88,11 @@ git config --global alias.s "status  -s -b"
     git commit --amend -m "nuevo mensaje para el ultimo commit realizado"
 ```
 
-## alternativa de escape cuando se utilzia el comando multilinea de git commit
+## alternativa de escape cuando se utiliza el comando multilinea de git commit
 
-////////////////////////////////////////////////////////////////
-Prensa Escape. Esto debe asegurarse de que está en modo de comando
-escriba :wq
-Prensa Return
-/////////////////////////////////
+- en caso de que olvidemos colocar el parametro -m entraremos al editor por defecto que contiene git para poder añadir un mensaje multilinea en caso de necesitarlo asique utilizando esa serie de pasos podemos salir del editor guardando los cambios
+  ////////////////////////////////////////////////////////////////
+  Prensa Escape. Esto debe asegurarse de que está en modo de comando
+  escriba :wq
+  Prensa Return
+  /////////////////////////////////
