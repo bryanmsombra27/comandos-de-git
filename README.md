@@ -73,3 +73,17 @@ git config --global alias.s "status  -s -b"
 ```
     git config --global -l //modo de solo lectura
 ```
+
+## Diferenciar entre cambios
+
+- Podemos ver la diferencia entre los cambios del ultimo comit realizado y lo qu actualmente realizamos ( como parametro podemos indicarle que revise por la diferencia en los archivos que esten actualmente en el stage)
+
+```
+    git diff || git diff --staged
+```
+
+## Cambiar el mensaje a un commit
+
+```
+    git commit --amend -m "nuevo mensaje para el ultimo commit realizado"
+```
