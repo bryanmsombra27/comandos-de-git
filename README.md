@@ -81,6 +81,8 @@ git push
 git log
 ```
 
+# Alias
+
 ## creando alias de manera global
 
 - de esta forma configuramos un alias para que pueda ser reconocido en todos los repositorios con los que trabajemos dentro de las comillas debemos colocar el listado de comandos que correran una vez ejecutado el shorthand en este caso el comando lg
@@ -91,6 +93,10 @@ git config --global alias.lg "log  --oneline --decorate --all --graph"
 
 ```
 git config --global alias.s "status  -s -b"
+```
+
+```
+git config --global alias.tiempo"reset --hard"
 ```
 
 ## revisando la configuracion de nuestros alias
