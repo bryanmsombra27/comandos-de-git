@@ -24,3 +24,9 @@ git push -u origin master
   **-u**: Nos permite indicarle que no se necesita especificar la rama la proxima vez que requiramos enviar los cambios al repositorio
   **origin**: El nombre del repositorio a la que se le enviaran los cambios
   **master**: el nombre de la rama en la que se almacenaran los cambios por default es master siempre que indica la rama principal
+
+## Clonar un repositorio
+
+```
+git clone url-del-repositorio-remoto (parametro opcional para colocarle un nombre al repositorio por default se omite este parametro)
+```
