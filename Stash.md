@@ -17,8 +17,34 @@ git stash list
 
 ## Obteniendo los cambios que almacenamos en el stash
 
-- una vez que hemos recuperado el trabajo almacenado en el stash esa referencia se elimina
+- restaura y elimina la ultima version añadida del stash
 
 ```
 git stash pop
 ```
+
+## Obteniendo los cambios que almacenamos en el stash
+
+- Restaura la ultima version añadida del stash
+
+```
+git stash apply
+```
+
+```
+git stash apply
+```
+
+## Eliminando manualmente un stash almacenado
+
+```
+git stash drop nombre-del-stash || git stash drop ultima-entrada
+```
+
+## Eliminando manualmente un stash almacenado
+
+```
+git stash drop
+```
+
+- estos cambios seran guardados en el stash para poder trabajar con este texto despues
