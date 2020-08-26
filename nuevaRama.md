@@ -31,3 +31,29 @@ git branch -d nombre-de-la-nueva-rama
 ```
 git checkout -b nombre-de-la-nueva
 ```
+
+## creando etiquetas
+
+- son referencias a un commit especifico (puede incluir el numero de version)
+
+```
+git tag nombre-de-la-etiqueta
+```
+
+## mostrando todas las etiquetas creadas
+
+```
+git tag
+```
+
+## eliminando una etiqueta en especifico
+
+```
+git tag -d nombre-de-la-etiqueta
+```
+
+## otra forma de crear las etiquetas
+
+```
+git tag -a v1.0.0 -m "nombre-de-la-etiqueta"
+```

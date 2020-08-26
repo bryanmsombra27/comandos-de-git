@@ -14,3 +14,11 @@ git stash
 ```
 git stash list
 ```
+
+## Obteniendo los cambios que almacenamos en el stash
+
+- una vez que hemos recuperado el trabajo almacenado en el stash esa referencia se elimina
+
+```
+git stash pop
+```
