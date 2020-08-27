@@ -30,3 +30,15 @@ git push -u origin master
 ```
 git clone url-del-repositorio-remoto (parametro opcional para colocarle un nombre al repositorio por default se omite este parametro)
 ```
+
+## creando y cambiando a la nueva rama remota automaticamente
+
+```
+git checkout -b nombre-de-la-nueva-rama
+```
+
+## creando rama remota
+
+```
+git push origin( nombre del repositorio por estandar el repositorio remoto es lllamado "origin") nombre-de-la-rama
+```
